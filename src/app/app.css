@@ -1,0 +1,79 @@
+body {
+  max-width: 1024px;
+  margin: 0 auto;
+  font-family: "Times New Roman", Times, serif;
+}
+.app-wrapper {
+  margin: 20px;
+}
+h1 {
+  text-align: center;
+}
+.count-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.input-wrapper {
+  padding: 30px;
+  background-color: #ccc;
+  display: flex;
+}
+.input-wrapper input {
+  width: 95%;
+  height: 40px;
+  border: 1px solid #eee;
+  font-size: 24px;
+  padding-left: 10px;
+  margin-right: 5px;
+}
+.input-wrapper button {
+  padding: 0 30px;
+  border-width: 0px;
+}
+ul {
+  list-style: none;
+  padding: 0px;
+}
+li {
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  font-size: 24px;
+  padding: 10px;
+}
+.checkbox-wrapper {
+  width: 50px;
+}
+.items-name {
+  flex: auto;
+  font-size: 24px;
+}
+.delete-button {
+  width: 100px;
+}
+h2 {
+  text-align: center;
+}
+.options-all {
+  display: flex;
+  padding: 10px;
+  font-size: 24px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 30px;
+  background-color: rgb(226, 223, 222);
+}
+.checkbox-name {
+  width: 50px;
+}
+.deleteall-button {
+  width: 100px;
+}
+.deleteall-button button,
+.delete-button button {
+  line-height: 30px;
+  padding: 0px 7px;
+}
+.check-label {
+  flex: auto;
+}
